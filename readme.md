@@ -53,7 +53,7 @@ print(resampled)
 Finally, we plot the results:
 
 ```
-from Visualization import plot_data_and_reconstruction
+from Visualisation import plot_data_and_reconstruction
 
 test_data_no_labels = scaler.inverse_transform(test_data_scaled[:, :-config["label_dim"]])
 
