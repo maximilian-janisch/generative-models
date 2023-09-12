@@ -23,7 +23,7 @@ We recover the data (with rescaling) and the labels (without rescaling) with
 ```
 from Base_classes.Data_processing.helpers import get_data_from_file
 
-# Imports data which was scaled using the scaler. The labels are not rescaled.
+# Imports data which was scaled using the scaler. The labels are not rescaled
 train_data_scaled, test_data_scaled, scaler = get_data_from_file(**config)
 ```
 
